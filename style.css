@@ -1,0 +1,75 @@
+body {
+  font-family: Lato, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(42, 126, 180, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  overflow-x: hidden;
+}
+
+nav {
+  height: 5rem;
+  width: 15rem;
+}
+
+.hero {
+  color: #fff;
+  position: relative;
+  top: 4rem;
+  left: 8rem;
+}
+
+.text {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 30px;
+  color: #e7e7e7;
+  position: relative;
+  top: -2rem;
+}
+
+button {
+  height: 3rem;
+  width: 10rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  margin-right: 5rem;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Open Sans";
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    color: #fff;
+    position: relative;
+    top: 0.5rem;
+    left: 2rem;
+  }
+  .text {
+    font-size: 50px;
+  }
+
+  .sub-text-area {
+    height: 5rem;
+    width: 30rem;
+  }
+
+  button {
+    margin-right: 2rem;
+  }
+}
